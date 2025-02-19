@@ -46,4 +46,4 @@
 
 ## Link 
 
-https://deepak-react-tanstack-query.netlify.app
+https://deepak-react-tanstack-query-infinite.netlify.app/
