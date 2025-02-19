@@ -7,6 +7,7 @@ import { Home } from "./pages/Home";
 import { FetchOld } from "./pages/FetchOld";
 import { FetchRQ } from "./pages/FetchRQ";
 import { Fetchindiv } from "./components/UI/Fetchindiv";
+import { InfinteScroll } from "./pages/InfinteScroll";
 import "./App.css";
 
 // create a router
@@ -20,16 +21,20 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "trad",
+        path: "/trad",
         element: <FetchOld></FetchOld>,
       },
       {
-        path: "rq",
+        path: "/rq",
         element: <FetchRQ></FetchRQ>,
       },
       {
-        path: "rq/:id",
+        path: "/rq/:id",
         element: <Fetchindiv></Fetchindiv>,
+      },
+      {
+        path: "/infinite",
+        element: <InfinteScroll></InfinteScroll>,
       },
     ],
   },

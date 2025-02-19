@@ -11,10 +11,13 @@ export const Header = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="trad">FetchOld</NavLink>
+            <NavLink to="/trad">FetchOld</NavLink>
           </li>
           <li>
-            <NavLink to="rq">FetchRQ</NavLink>
+            <NavLink to="/rq">FetchRQ</NavLink>
+          </li>
+          <li>
+            <NavLink to="/infinite">InfiniteScroll</NavLink>
           </li>
         </ul>
       </div>
